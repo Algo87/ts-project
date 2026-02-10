@@ -29,7 +29,10 @@
     // import React from 'react';
     "allowSyntheticDefaultImports": true,
     "types": ["node", "webpack"],
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    }
   },
   "ts-node": {
     "compilerOptions": {
