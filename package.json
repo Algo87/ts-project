@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack serve --env PORT=3000",
     "build:prod": "webpack --env --env mode=production",
-    "build:dev": "webpack --env --env mode=development"
+    "build:dev": "webpack --env --env mode=development",
+    "lint:ts": "eslint \"**/*.{ts, tsx}\"",
+    "lint:ts:fix": "eslint \"**/*.{ts, tsx}\" --fix"
   },
   "repository": {
     "type": "git",
